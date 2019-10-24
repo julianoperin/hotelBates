@@ -105,8 +105,9 @@ p {
 }
 /*Show CAse*/
 #showcase {
-    background: url('../img/fotoone.jpeg') no-repeat center center/cover;
+    background: url('../img/fotoone.jpeg  ') no-repeat center center/cover;
     height: 600px;
+    
 }
 #showcase .showcase-content {
     color: white;
@@ -156,10 +157,63 @@ p {
     background: #f7c08a;
     color: #333;
 }
+
+/* About info*/
+.infoone {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#foto {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+.infoleft {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+/*Padding*/
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+.l-heading {
+    font-size: 50px;
+}
 /*footer*/
 #main-footer {
     text-align: center;
     background: #444;
     color: #fff;
     padding: 20px;
+}
+
+#testimonials {
+    height: 600px;
+    background: url('../img/fotothree.jpeg') no-repeat center center/cover;
+    padding-top: 70px;
+    
+    
+}
+.test1 {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.headtwo {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.testemunha {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+    
 }
